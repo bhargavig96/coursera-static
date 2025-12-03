@@ -66,7 +66,7 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 
     max-width: 1200px;      /* FIXED maximum width */
-    width: 90%;            /* prevents full-width on small devices */
+    width: 85%;            /* prevents full-width on small devices */
     margin: 30px auto;     /* keeps gaps on left + right ALWAYS */
 }
 
@@ -92,7 +92,7 @@ body {
 
 @media (min-width:992px) {
     .section-box {
-        width: 98%;
+        width: 95%;
     }
 }
 
