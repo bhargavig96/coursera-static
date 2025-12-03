@@ -1,0 +1,93 @@
+body {
+    font-size: 16px;
+    color: #000;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+    background: lightgray;
+}
+
+/* Brand color */
+.navbar-brand {
+    color: #000;
+}
+
+.nav-link {
+    color: #000;
+    font-family: 'Oxygen' , sans-serif;
+}
+
+.navbar .navbar-nav>li>a {
+    color: #000;
+}
+
+/* Hamburger button */
+.navbar-toggler {
+    border: 2px solid #000;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    padding: 5px;
+}
+
+/* Hamburger bars */
+.toggler-bar {
+    height: 3px;
+    width: 100%;
+    background-color: black; /* default bars */
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* Change bar color when menu is open */
+.navbar-toggler:not(.collapsed) .toggler-bar {
+    background-color: white;
+}
+
+.navbar-toggler:not(.collapsed) {
+    border-color: white;
+}
+
+.section-box {
+    background-color: lightgray;
+    padding: 25px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+    max-width: 1200px;      /* FIXED maximum width */
+    width: 90%;            /* prevents full-width on small devices */
+    margin: 30px auto;     /* keeps gaps on left + right ALWAYS */
+}
+
+
+/* Heading */
+.heading h1 {
+    padding-top: 10px;
+    text-align: center;
+    color: #000;
+}
+
+.menu-chicken:hover {
+    background-color: #fff;
+}
+
+.menu-beef:hover {
+    background-color: #fff;
+}
+
+.menu-sushi:hover {
+    background-color: #fff;
+}
+
+@media (min-width:992px) {
+    .section-box {
+        width: 98%;
+    }
+}
+
+
