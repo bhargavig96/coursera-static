@@ -94,6 +94,10 @@ body {
     .section-box {
         width: 95%;
     }
+
+    .navbar-toggler {
+        display: none !important;
+    }
 }
 
 
