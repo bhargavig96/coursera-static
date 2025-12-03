@@ -12,6 +12,14 @@ body {
 /* Brand color */
 .navbar-brand {
     color: #000;
+    font-size: 32px;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-brand:active {
+    color: #000 !important;   /* keep it black */
+    text-decoration: none;    /* removes underline if it appears */
 }
 
 .nav-link {
@@ -95,7 +103,14 @@ body {
         width: 95%;
     }
 
-    .navbar-toggler {
+    .navbar-toggler, .navbar-collapse {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+   
+    .navbar-toggler, .collapse.navbar-collapse  {
         display: none !important;
     }
 }
