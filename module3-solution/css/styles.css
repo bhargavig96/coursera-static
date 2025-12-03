@@ -52,6 +52,12 @@ body {
     border-color: white;
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 .section-box {
     background-color: lightgray;
     padding: 25px;
